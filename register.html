@@ -61,6 +61,7 @@
 
         createUserWithEmailAndPassword(auth, emailInp.value, passwordInp.value)
         .then((credentials)=>{
+            console.log("Cadastro realizado com sucesso!");
             console.log(credentials);
         })
         .catch((error)=>{
